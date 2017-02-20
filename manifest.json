@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Background Load",
+  "version": "1.0",
+
+  "description": "Loads the link in the backgroud and switch to it after loaded",
+
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "contextMenus",
+    "webNavigation"
+  ]
+}
